@@ -16,8 +16,6 @@ public class HelloWorldController {
 	public String helloWorld(Model model, @AuthenticationPrincipal OidcUser user) {
 		ArrayList<Integer> aList = new ArrayList<Integer>();
 		List<Integer> bList = new ArrayList<Integer>();
-		bList.a
-		model.addAttribute("name", user.getGivenName());
 		return "hello-world";
 	}
 }
