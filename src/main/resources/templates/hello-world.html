@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <body>
+        <h1 th:text="'Hello, ' + ${name} + '!'"></h1>
+        <button id="clickMe"> Click </button>
+        <script>
+        	document.getElementById("clickMe").addEventListener("click", function(){
+        		alert("Clicked!");
+        	})
+        </script>
+    </body>
+</html>
